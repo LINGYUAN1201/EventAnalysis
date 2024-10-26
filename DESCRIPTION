@@ -1,0 +1,17 @@
+Package: EventAnalysis
+Type: Package
+Title: Event Analysis for Financial Data
+Version: 0.1.0
+Authors@R: person("Ling", "Yuan", email = "LingYUAN1201@outlook.com", role = c("aut", "cre"))
+Description: Provides functions to perform event analysis with market model and market-adjusted CAR calculations.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports:
+    dplyr,
+    readxl,
+    openxlsx,
+    purrr,
+    stats,
+    utils,
+    magrittr
+RoxygenNote: 7.3.2
